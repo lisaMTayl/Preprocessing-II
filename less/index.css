@@ -178,7 +178,10 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.mobile {
+  max-width: 500px;
+}
+.mobile > header {
   display: flex;
   max-width: 800px;
   margin: auto;
@@ -186,17 +189,22 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-h1 {
+@media (max-width: 500px) {
+  .mobile nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.mobile h1 {
   font-size: 4rem;
 }
-nav {
+.mobile nav {
   margin-left: 62px;
-  display: flex;
 }
-.first-anchor {
+.mobile .first-anchor {
   margin-left: 0;
 }
-a {
+.mobile a {
   margin-left: 20px;
   font-size: 1.8rem;
   text-decoration: none;
@@ -267,3 +275,4 @@ a {
   width: 30%;
   margin-bottom: 30px;
 }
+/*# sourceMappingURL=index.css.map */
