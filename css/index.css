@@ -178,16 +178,13 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.navbar {
   display: flex;
   max-width: 800px;
   margin: auto;
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
-}
-h1 {
-  font-size: 4rem;
 }
 nav {
   margin-left: 62px;
@@ -214,10 +211,10 @@ a {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home .top-content {
+.home header {
   display: block;
 }
-.home .top-content h1 {
+.home header h1 {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -227,43 +224,43 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .content-section .text-content {
+.home .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.home .content-section .img-content {
+.home .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.home .content-section .img-content img {
+.home .img-content img {
   border-radius: 10px;
 }
-.home .inverse-content {
+.inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-.home .inverse-content .text-content {
+.inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.home .inverse-content .img-content {
+.inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
-.home .content-destination {
+.content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
-.home .content-destination img {
+.content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+.content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .destination {
+.content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
